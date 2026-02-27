@@ -1,0 +1,35 @@
+{
+  "name": "claude-audit-log",
+  "version": "1.0.0",
+  "description": "Compliance audit trail for AI-generated code changes. SOC2/ISO ready.",
+  "type": "module",
+  "bin": {
+    "claude-audit-log": "./bin/audit.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "scripts/"
+  ],
+  "scripts": {
+    "test": "node --experimental-vm-modules bin/audit.js stats"
+  },
+  "keywords": [
+    "claude",
+    "audit",
+    "compliance",
+    "soc2",
+    "iso27001",
+    "ai",
+    "claude-code"
+  ],
+  "author": "Nicholas Ashkar",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
