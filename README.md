@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # claude-audit-log
 
 Compliance audit trail for AI-generated code changes. SOC2 / ISO 27001 ready.
