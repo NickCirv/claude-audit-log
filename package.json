@@ -12,7 +12,7 @@
     "scripts/"
   ],
   "scripts": {
-    "test": "node --experimental-vm-modules bin/audit.js stats"
+    "test": "node --test"
   },
   "keywords": [
     "claude",
